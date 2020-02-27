@@ -13,4 +13,18 @@ Independent Variables
   - cabinClass - class the seat was in; F-First class, C-Business class, Y-Economy 
   - dateDifference - days in advance ticket was purchased 
   - TODD - Time of day departure took place; M - 6am-Noon; A - Noon-6pm; N - 6pm-Midnight
-  - Month - 
+  - Month - month that the departing flight happened
+  - DOW - Day of week the flight departed
+  - MOPD - Month the ticket was purchased
+  - DOPD - Day of the week the ticket was purchased
+  - TOPD_L - Time of day ticket was purchased; EM - Midnight-6am; M - 6am-Noon; A - Noon-6pm; N - 6pm-Midnight
+  
+  Models 
+  We ran a Ridge, Lasso and OLS
+  - OLS provided the best results with an RMSE of 132 and R^2 of 0.71 
+  
+  Actionable Insights
+  - Provided in the pdf file attached; check pages 4 & 8.
+  
+  Further Exploration
+  - Run the model on a data set containing ticket prices for a large time span (larger time span and full year). 
