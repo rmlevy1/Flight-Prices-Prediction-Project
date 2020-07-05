@@ -1,6 +1,7 @@
-# Flight-Prices-Prediction-Project
+# Predicting Flight Prices From Beijing <-> Shanghai
 
-This project was completed by Jigme Sherpa and Raam Levy.
+## Goal: 
+Create a prediction model to predict flight prices from Beijing to Shanghai and vice versa, in order to help prospective flyers take advantage of variables that lead to cheaper ticket prices. 
 
 In our project we set out to predict flight prices from Beijing to Shanghai and vice versa. 
 We explored the following data sets(https://www.kaggle.com/lpisallerl/air-tickets-between-shanghai-and-beijing#sha-pek.csv) from kaggle, which contained prices of tickets purchased for flights from January 2019 to August 2019. 
@@ -28,3 +29,4 @@ Independent Variables
   
   Further Exploration
   - Run the model on a data set containing ticket prices for a large time span (larger time span and full year). 
+This project was completed by Jigme Sherpa and Raam Levy.
