@@ -3,25 +3,30 @@
 ## Goal: 
 Create a prediction model to predict flight prices from Beijing to Shanghai and vice versa, in order to help prospective flyers take advantage of variables that lead to cheaper ticket prices. 
 
-In our project we set out to predict flight prices from Beijing to Shanghai and vice versa. 
-We explored the following data sets(https://www.kaggle.com/lpisallerl/air-tickets-between-shanghai-and-beijing#sha-pek.csv) from kaggle, which contained prices of tickets purchased for flights from January 2019 to August 2019. 
+## Repository
 
-Data Cleaning/Feature Engineering 
+## Process:
 
-Target Variable - Prices
-Independent Variables 
+#### Data Acquisition 
+We acquired the data for this model from the following [kaggle data set](https://www.kaggle.com/lpisallerl/air-tickets-between-shanghai-and-beijing#sha-pek.csv).\
+The data set contains one way ticket prices from Beijing to Shanghai and vice versa from January 2019 to August 2019.
+
+#### Data Cleaning/Feature Engineering 
+We feature engineered the following variables, due to our domain knowledge in the subject matter and what we thought would impact prices. \
   - Layover - 0 implying a direct flight, 1 implying a non-direct flight
-  - cabinClass - class the seat was in; F-First class, C-Business class, Y-Economy 
-  - dateDifference - days in advance ticket was purchased 
+  - cabinClass - Class the seat was in; F-First class, C-Business class, Y-Economy 
+  - dateDifference - Days in advance ticket was purchased.
   - TODD - Time of day departure took place; M - 6am-Noon; A - Noon-6pm; N - 6pm-Midnight
-  - Month - month that the departing flight happened
-  - DOW - Day of week the flight departed
-  - MOPD - Month the ticket was purchased
-  - DOPD - Day of the week the ticket was purchased
+  - Month - Month the flight departed in.
+  - DOW - Day of week the flight departed.
+  - MOPD - Month the ticket was purchased.
+  - DOPD - Day of the week the ticket was purchased.
   - TOPD_L - Time of day ticket was purchased; EM - Midnight-6am; M - 6am-Noon; A - Noon-6pm; N - 6pm-Midnight
   
-  Models 
-  We ran a Ridge, Lasso and OLS
+#### EDA 
+We inspected Features vs Price to check for impact of the various features on the target variable.
+A few highlights below.
+<img src="Project%20Images/Comp_Size.png" width="300">
   - OLS provided the best results with an RMSE of 132 and R^2 of 0.71 
   
   Actionable Insights
