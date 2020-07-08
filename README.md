@@ -1,11 +1,11 @@
 # Predicting Flight Prices From Beijing <-> Shanghai
 
-## Goal: 
+## Goal 
 Create a prediction model to predict flight prices from Beijing to Shanghai and vice versa, in order to help prospective flyers take advantage of variables that lead to cheaper ticket prices. 
 
 ## Repository
 
-## Process:
+## Process
 
 #### Data Acquisition 
 We acquired the data for this model from the following [kaggle data set](https://www.kaggle.com/lpisallerl/air-tickets-between-shanghai-and-beijing#sha-pek.csv).\
@@ -24,16 +24,20 @@ We feature engineered the following variables, due to our domain knowledge in th
   - TOPD_L - Time of day ticket was purchased; EM - Midnight-6am; M - 6am-Noon; A - Noon-6pm; N - 6pm-Midnight
   
 #### EDA 
-We inspected Features vs Price to check for impact of the various features on the target variable.
+We inspected Features vs Price to check for impact of the various features on the target variable.\
 A few highlights below. \
-<img src="Project%20_Images/DOW.png" width="300">
-<img src="Project%20_Images/Month.png" width="300">
-<img src="Project_%20Images/dateDifference.png" width="300">
-  - OLS provided the best results with an RMSE of 132 and R^2 of 0.71 
+<img src="Project_Images/DOW.png" width="300">
+<img src="Project_Images/Month.png" width="300">
+<img src="Project_Images/dateDifference.png" width="300">
+
+#### Modeling
+We chose to use the Multiple Linear Regression model for its feature interpretability.\
+OLS model produced an RMSE of 132 and R^2 of 0.71. 
   
-  Actionable Insights
-  - Provided in the pdf file attached; check pages 4 & 8.
+#### Actionable Insights
+Check [Slides](https://docs.google.com/presentation/d/1n0zjTuZW-0FHeArEZXLCu_cRxrCmemVM7iX11LGqBQg/edit?usp=sharing) pages 4 and 8.
   
-  Further Exploration
-  - Run the model on a data set containing ticket prices for a large time span (larger time span and full year). 
+## Further Work
+Gather around 10 million data points for the model and have the data span outside the timeline of Jan 2019 to August 2019. 
+## Credits 
 This project was completed by Jigme Sherpa and Raam Levy.
