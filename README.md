@@ -25,8 +25,10 @@ We feature engineered the following variables, due to our domain knowledge in th
   
 #### EDA 
 We inspected Features vs Price to check for impact of the various features on the target variable.
-A few highlights below.
-<img src="Project%20Images/Comp_Size.png" width="300">
+A few highlights below. \
+<img src="Project%20_Images/DOW.png" width="300">
+<img src="Project%20_Images/Month.png" width="300">
+<img src="Project_%20Images/dateDifference.png" width="300">
   - OLS provided the best results with an RMSE of 132 and R^2 of 0.71 
   
   Actionable Insights
