@@ -12,7 +12,7 @@ We acquired the data for this model from the following [kaggle data set](https:/
 The data set contains one way ticket prices from Beijing to Shanghai and vice versa from January 2019 to August 2019.
 
 #### Data Cleaning/Feature Engineering 
-We feature engineered the following variables, due to our domain knowledge in the subject matter and what we thought would impact prices. \
+We feature engineered the following variables, due to our domain knowledge in the subject matter and what we thought would impact prices.
   - Layover - 0 implying a direct flight, 1 implying a non-direct flight
   - cabinClass - Class the seat was in; F-First class, C-Business class, Y-Economy 
   - dateDifference - Days in advance ticket was purchased.
