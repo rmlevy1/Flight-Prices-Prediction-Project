@@ -4,6 +4,8 @@
 Create a prediction model to predict flight prices from Beijing to Shanghai and vice versa, in order to help prospective flyers take advantage of variables that lead to cheaper ticket prices. 
 
 ## Repository
+1. Flight_Prices_Prediction_Final 
+2. [Slides](https://docs.google.com/presentation/d/1n0zjTuZW-0FHeArEZXLCu_cRxrCmemVM7iX11LGqBQg/edit?usp=sharing)
 
 ## Process
 
