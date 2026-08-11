@@ -42,4 +42,4 @@ Check [Slides](https://docs.google.com/presentation/d/1n0zjTuZW-0FHeArEZXLCu_cRx
 ## Further Work
 Gather around 10 million data points for the model and have the data span outside the timeline of Jan 2019 to August 2019. 
 ## Credits 
-This project was completed by Jigme Sherpa and Raam Levy.
+This project was completed by Jigme Sherpa and Rahm Levy.
